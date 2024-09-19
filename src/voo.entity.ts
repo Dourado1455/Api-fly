@@ -15,6 +15,6 @@ export class Voo {
   destino_cidade: string;
 
   @Column({ type: 'date', nullable: false })
-  data: string; // Pode ser ajustado para um tipo mais específico como 'timestamp'
+  data: string; 
 }
 
